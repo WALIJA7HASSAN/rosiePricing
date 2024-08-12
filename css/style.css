@@ -435,8 +435,8 @@ padding-inline: 1rem;
 .card-shadow{
     /* box-shadow: rgba(146, 50, 224, 0.15) 0px 50px 100px 0px; */
  box-shadow: 
-  rgba(146, 50, 224, 0.05) 0px 10px 100px,   /* Lighter shadow for the top and bottom */
-  rgba(146, 50, 224, 0.1) 0px 15px 35px;   /* Stronger shadow for the sides */
+  rgba(146, 50, 224, 0.05) 0px 10px 100px,  
+  rgba(146, 50, 224, 0.1) 0px 15px 35px;   
  z-index: 50;
 }
 .price-card:hover{
@@ -536,7 +536,7 @@ margin-block: 1.5rem;
      padding: 30px;
     background: white;
     border-radius: 20px;
-   box-shadow: rgba(149, 157, 165, 0.15) 0px 40px 100px;
+   /* box-shadow: rgba(149, 157, 165, 0.15) 0px 40px 100px; */
 }
 .plan-section-title{
     font-size: 39px;
