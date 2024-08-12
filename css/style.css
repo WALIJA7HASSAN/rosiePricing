@@ -498,6 +498,9 @@ color: #2b143db3 !important;
 /* background: linear-gradient( rgba(185,37,214,1) 0%, rgba(147,50,224,1) 100%); */
  background: linear-gradient(180deg, rgb(168, 63, 193) 0%, rgb(146, 52, 206) 52.25225225225225%);
 }
+.price-card-link1:hover{
+     color: white !important;
+}
 .price-card-link2{
     width: 100%;
     font-size: 17px;
@@ -509,6 +512,9 @@ color: #2b143db3 !important;
     text-align: center;
     font-weight: 500;
     border: 1px solid #9332e0;
+}
+.price-card-link2:hover{
+     color: #9332e0 !important;
 }
 /* plan */
 .plan-section{
