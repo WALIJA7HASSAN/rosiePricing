@@ -253,7 +253,7 @@ margin-block: 1rem;
     display: grid;
     place-items: center;
     text-align: center;
-    padding-inline: 20px;
+    padding: 150px 20px;
 }
 .calltoaction-section h5{
     font-size: 44px;
