@@ -38,9 +38,9 @@ p{
     border-radius: 50px;
     font-size: 17px;
     text-decoration: none;
-    padding: 12px ;
+    padding: 10px 12px ;
     color: #fff;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 500;
 }
 .navbar{
@@ -376,7 +376,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: end;
-    /* gap: 0.5rem; */
+    gap: 0.5rem;
     
 }
 .pricing-btn a{
@@ -399,15 +399,15 @@ padding-inline: 1rem;
    
 }
 .price-hero-section div{
-    padding: 100px 20px;
+    padding: 200px 20px 50px 20px;
    
 }
 .price-hero-section h3{
-    color: #2a143c;
+    color: rgb(42, 20, 60);
     font-size: 44px;
     
      font-weight: bold;
-     
+     line-height: 1;
      
 }
 .price-hero-section p{
@@ -427,8 +427,17 @@ padding-inline: 1rem;
     padding: 40px;
     background: white;
     border-radius: 20px;
-   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   /* box-shadow: rgba(40, 20, 60, 0.103) 0px 8px 24px; */
+   
    transition: all 0.5s ease;
+   z-index: 100;
+}
+.card-shadow{
+    /* box-shadow: rgba(146, 50, 224, 0.15) 0px 50px 100px 0px; */
+ box-shadow: 
+  rgba(146, 50, 224, 0.05) 0px 10px 100px,   /* Lighter shadow for the top and bottom */
+  rgba(146, 50, 224, 0.1) 0px 15px 35px;   /* Stronger shadow for the sides */
+ z-index: 50;
 }
 .price-card:hover{
     transform: translateY(-20px);
@@ -464,10 +473,11 @@ color: #2b143db3 !important;
 .price-card ul{
     color: #2a143c;
     font-size: 20px;
-    line-height: 1.8;
+    line-height: 2;
     margin-block: 0.7rem 1rem;
-    padding-left: 0;
+    padding-left: 0 !important;
 }
+
 .price-card ul li,.plan-container ul li{
     display: flex;
     align-items: baseline;
@@ -526,7 +536,7 @@ margin-block: 1.5rem;
      padding: 30px;
     background: white;
     border-radius: 20px;
-   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   box-shadow: rgba(149, 157, 165, 0.15) 0px 40px 100px;
 }
 .plan-section-title{
     font-size: 39px;
@@ -540,9 +550,14 @@ font-weight: bold;
     gap: 0.5rem;
     margin-block: 1rem;
 }
+
+
 .plan-section-list ul{
-    line-height: 2;
-     padding-left: 0;
+    line-height: normal;
+     padding-left: 0 !important;
+     margin-bottom: 0;
+     display: grid;
+     gap: 0.7rem;
 }
 /* faq */
 .faq-section{
@@ -673,6 +688,14 @@ margin-block: 1rem;
  background: linear-gradient(180deg, rgb(168, 63, 193) 0%, rgb(146, 52, 206) 52.25225225225225%);
 box-shadow: rgba(146, 50, 224, 0.425)  0px 25px 70px 0px;
 }
+@media screen and (min-width:375px){
+.header-links{
+    gap: 1rem;
+}
+.header-links .site-btn a{
+padding: 12px 18px;
+}
+}
 @media screen and (min-width:400px){
 .site-btn a{
      padding: 12px 20px;
@@ -752,7 +775,8 @@ width: 142px !important;
     grid-template-columns: 1fr 1fr;
     margin-block: 1.5rem;
     line-height: 1.5;
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
+    gap: 2.5rem;
 }
 .plan-section{
 padding: 20px 90px;
