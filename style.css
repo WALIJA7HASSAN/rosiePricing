@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Outfit", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.section{
+    max-width: 1280px;
+    margin-inline: auto;
+   
+}
+.hero-section div{
+    padding: 100px 20px;
+   
+}
+.hero-section h3{
+    color: #2a143c;
+    font-size: 44px;
+     line-height: 1;
+     
+     
+}
+.hero-section p{
+    color: #2b143db3;
+    font-size: 28px;
+}
+.hero-section h3{
+    max-width: 850px;
+}
+/* section2 */
+.price-card-container{
+    padding: 20px;
+    display: grid;
+    gap: 1.5rem;
+}
+.price-card{
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   transition: all 0.5s ease;
+}
+.price-card:hover{
+    transform: translateY(-20px);
+}
+.card-title{
+    color: #9332e0;
+    font-size: 16px;
+    padding: 10px 15px;
+    background: #9332e01a;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.price-amount{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-block: 0.5rem;
+    line-height: 1;
+}
+.price-amount p:first-of-type {
+font-size: 50px;
+color: #2a143c;
+font-weight: bold;
+}
+.price-amount p:nth-of-type(2) {
+font-size: 14px;
+color: #2b143db3;
+ font-family: "Inter", sans-serif;
+}
+.price-card ul{
+    color: #2a143c;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-block: 0.7rem 1rem;
+}
+.price-card ul li,.plan-container ul li{
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+
+}
+.price-card ul .bx,.plan-container ul .bx{
+    background-color: #9332e0;
+    color: white;
+    border-radius: 50%;
+    padding: 2px;
+   
+}
+.plan-container ul .bx{
+    padding: 1px;
+}
+.price-card-link1{
+    width: 100%;
+    font-size: 17px;
+    /* background: #9332e0; */
+    color: white;
+    display: block;
+    padding: 15px 0px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    background: rgb(185,37,214);
+background: linear-gradient( rgba(185,37,214,1) 0%, rgba(147,50,224,1) 100%);
+}
+.price-card-link2{
+    width: 100%;
+    font-size: 17px;
+    color: #9332e0;
+    background: transparent;
+    display: block;
+    padding: 15px 0px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid #9332e0;
+}
+/* plan */
+.plan-section{
+color: #2a143c;
+padding: 20px;
+margin-block: 1.5rem;
+}
+.plan-section-list{
+     padding: 30px;
+    background: white;
+    border-radius: 20px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.plan-section-title{
+    font-size: 39px;
+    
+font-weight: bold;
+}
+.plan-section-list{
+    font-size: 18px;
+    line-height: normal;
+    display: grid;
+    gap: 0.5rem;
+    margin-block: 1rem;
+}
+.plan-section-list ul{
+    line-height: 2;
+}
+/* faq */
+.faq-section{
+    padding: 20px;
+    margin-block: 1.5rem;
+}
+.faq-title{
+     font-size: 38px;
+     color: #2a143c;
+font-weight: bold;
+margin-block: 1rem;
+}
+.faq{
+    display: grid;
+    gap: 0.5rem;
+    
+   
+
+}
+.faq h5{
+     font-size: 20px;
+     color: #2a143c;
+     font-weight: 500;
+      
+}
+.faq p{
+    font-size: 18px;
+     color: #2b143db3;
+     font-weight: 500;
+}
+.faq-container{
+    display: grid;
+    gap: 2rem;
+}
+/* patner */
+.partner-section{
+     padding: 20px;
+    margin-block: 1.5rem;
+}
+.partner-container{
+ /* background: linear-gradient(to top right,#44216F,#311A4F); */
+ background: radial-gradient(circle at top, #36194D,#44216F);
+ padding: 2rem;
+ border-radius: 25px;
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ gap: 1rem;
+ min-height: 90vh;
+ 
+}
+
+.partner-title{
+    font-size: 18px;
+    color: white;
+    background: #ffffff1a;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 1.2rem;
+}
+.partner-heading{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.partner-subheading{
+    font-size: 28px;
+    color: #ffffffA6;
+    font-weight: 300;
+}
+.partner-container a{
+    background: white;
+    color: #9332e0;
+    padding: 20px 50px;
+    display: inline-block;
+    border-radius: 50px;
+      justify-self: center;
+       margin-top: 1.2rem;
+       font-size: 19px;
+       font-weight: 500;
+       align-self: center;
+        box-shadow: 0 15px 45px #9232e06c;
+
+}
+.partner-headings{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* calltoaction-section */
+.calltoaction-section{
+    margin: 50px 20px;
+    border-radius: 25px;
+    background: linear-gradient(to bottom left, #f2f2f5  40%,#c8c8dc );
+  
+
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-inline: 20px;
+}
+.calltoaction-section h5{
+    font-size: 44px;
+    font-weight: bold;
+     color: #2a143c;
+     line-height: 1;
+}
+.calltoaction-section p{
+    font-size: 26px;
+     color: #2b143db3;
+     margin-block: 2rem 3rem;
+}
+.calltoaction-section a{
+    font-size: 19px;
+    color: white;
+    display: inline-block;
+    padding: 25px 25px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    background: rgb(185,37,214);
+background: linear-gradient( rgba(185,37,214,1) 0%,rgba(147,50,224,1), rgba(147,50,224,1) 100%);
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+@media screen and (min-width:768px){
+    .hero-section h3{
+    font-size: 60px;
+    margin-bottom: 0.5rem;
+   
+     
+}
+.hero-section{
+   
+    
+    display: flex;
+    place-items: center;
+}
+.hero-section div{
+     padding: 150px 90px 100px 90px;
+}
+
+
+.price-card-link1,.price-card-link2{
+ padding: 15px 20px;
+}
+.plan-container ul{
+    font-size: 20px;
+}
+.faq-title{
+    font-size: 46px;
+}
+.faq h5{
+    font-size: 22px;
+}
+.partner-container{
+ background: radial-gradient(circle at top, #321849 60%,#44216F);
+}
+.partner-heading{
+    font-size: 46px;
+    
+}
+.calltoaction-section{
+    min-height: 650px;
+      background: radial-gradient(circle at top, #f6f6f6 50% ,#c6c4db );
+}
+.calltoaction-section h5{
+    font-size: 60px;}
+
+}
+@media screen and (min-width:1024px){
+    .hero-section h3{
+    font-size: 74px;
+     
+}
+.price-card-container{
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 90px;
+}
+.price-card{
+    padding: 3rem;
+}
+.plan-section-list{
+    grid-template-columns: 1fr 1fr;
+    margin-block: 1.5rem;
+    line-height: 1.5;
+    padding: 2rem 3rem;
+}
+.plan-section{
+padding: 20px 90px;
+}
+.faq-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+.faq-section{
+    padding: 20px 90px;
+    margin-block: 5rem;
+}
+.faq-title{
+    margin-bottom: 5rem;
+    font-size: 50px;
+}
+.faq p{
+    font-size: 20px;
+}
+.partner-section{
+    padding: 20px 90px;
+}
+.partner-heading{
+    font-size: 50px;
+}
+.calltoaction-section h5{
+    font-size: 74px;}
+
+    .calltoaction-section a{
+        padding-block: 28px;
+    }
+}
