@@ -276,7 +276,7 @@ margin-block: 1rem;
     font-weight: 500;
     background: rgb(185,37,214);
 background: linear-gradient( rgba(185,37,214,1) 0%,rgba(147,50,224,1), rgba(147,50,224,1) 100%);
-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+box-shadow: rgba(146, 50, 224, 0.425)  0px 25px 70px 0px;
 }
 @media screen and (min-width:768px){
     .hero-section h3{
