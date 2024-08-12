@@ -1,146 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing — Rosie | AI Answering Service for Home Services and Small Businesses</title>
-    <link rel="stylesheet" href="style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-</head>
-<body>
-    <section class="section hero-section">
-        <div><h3 >Get your AI phone assistant today.</h3>
-        <p>Start with a 7-day free trial. No contracts. Cancel anytime.</p></div>
-    </section>
-    <section class="section pricing-section">
-        <div class="price-card-container">
-            <div class="price-card">
-                <p class="card-title">Professional</p>
-                <div class="price-amount">
-                    <p>$49</p>
-                    <p>/month</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.PNG">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rosie | AI Answering Service for Home Services and Small Businesses</title>
+  </head>
+  <body>
+    <div class="fixed-header">
+      <nav class="navbar">
+        <div class="col-md-6">
+          <div class="siteLogo navLogo">
+           <a href="./index.html"><img src="images/sitelogo.png" alt="" width="98" /></a>
+          </div>
+        </div>
+        <div class="col-md-6 header-links">
+          <div class="pricing-btn text-end">
+            <a href="./pricing.html">Pricing</a>
+          </div>
+          <div class="site-btn text-end">
+            <a href="#">Get Started</a>
+          </div>
+
+        </div>
+    </nav>
+    </div>
+    <section class="container-fluid top-sec">
+      <div class="top-bg">
+        <div class="container p-0">
+          <nav class="navbar">
+              <div class="col-sm-6 col-6">
+                <div class="siteLogo">
+                  <img src="images/sitelogo.png" alt="" width="142" />
                 </div>
-                <ul>
-                    <li><i class='bx bx-check'></i>Up to 250 minutes</li>
-                    <li><i class='bx bx-check'></i>Zapier integration</li>
-                    <li><i class='bx bx-check'></i>1 location</li>
-                   
-                </ul>
-                <a href="#" class="price-card-link1">Get Started for Free</a>
-            </div>
-            <div class="price-card">
-                <p class="card-title">Custom</p>
-                <div class="price-amount">
-                    <p>Custom Pricing</p>
-                    
+              </div>
+              <div class="col-md-6 header-links">
+                <div class="pricing-btn text-end hero-price-btn">
+            <a href="./pricing.html">Pricing</a>
+          </div>
+                <div class="site-btn text-end d-none-mbl">
+                  <a href="#">Get Started for Free</a>
                 </div>
-                <ul>
-                    <li><i class='bx bx-check'></i>Unlimited minutes</li>
-                    <li><i class='bx bx-check'></i>Zapier + CRM + API integrations</li>
-                    <li><i class='bx bx-check'></i>Unlimited locations</li>
-                   
-                </ul>
-                <a href="#" class="price-card-link2">Contact Us</a>
+              </div>
+          </nav>
+          <div class="hero-section">
+            <div class="container">
+              <div class="hero-content text-center">
+                <h1>Meet Rosie, Your AI Answering Service.</h1>
+                <p>
+                  Your business will never miss another call with Rosie
+                  answering your phone calls and setting appointments 24/7.
+                </p>
+                <div class="site-btn">
+                  <a href="#">Get Started</a>
+                </div>
+              </div>
+                <div class="video">
+                    <button class="play-btn" id="playButton">
+                        <img src="images/play.svg" alt=""> <span>Watch a demo</span>
+                    </button>
+                    <video id="myVideo"  class="hide-controls">
+                        <source src="https://framerusercontent.com/assets/e9J0P46aApGJQrQbkOigLf6jek.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                        </video>
+<img id="endImage" src="images/EHppm5H2HRSbMxFCOt5LWUPuVI.png" style="display: none;" alt="End Image" class="ig">
+                </div>
+                <div class="slider row">
+                    <div class="col-md-2">
+                        <h3>Integrates with…</h3>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tickerwrapper marquee">
+                            <ul class='list p-0'>
+                                <li class='listitem'>
+                                    <img src="images/b0cEkgAP5VeBGbv7oY3osgZR6A.avif" alt="">
+                                </li>
+                                <li class='listitem'>
+                                  <img src="images/cCUXDWPeCvZRFhu954iyM8dqQ.avif" alt="">
+                              </li>
+                              <li class='listitem'>
+                                <img src="images/mVnMxTyEgMKXze7Xf6tWEgptUTk.avif" alt="">
+                            </li>
+                            <li class='listitem'>
+                              <img src="images/N6DAe7gtwvzMCp8WnIoNtWYs.avif" alt="">
+                          </li>
+                          <li class='listitem'>
+                            <img src="images/RcNgakm7XB1VEtS3em9s2S6Gc.avif" alt="">
+                        </li>
+                        <li class='listitem'>
+                          <img src="images/gost.avif" alt="">
+                      </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+          </div>
+      </div>
+    </section>
+    <section class="img-box ptb-100">
+        <div class="container">
+            <div class="row rimg-lcont align-items-center">
+                <div class="col-md-6">
+                    <h2>Never miss another call.</h2>
+                    <ul class="cont-list p-0 mt-5">
+                        <li><img src="images/clock.PNG" alt=""><span>Rosie is always on. 24/7/365. Perfect for when you’re busy or after hours when no one is available.</span></li>
+                        <li><img src="images/msg.PNG" alt=""><span>Rosie can book appointments for you, answer customer questions, and send confirmation texts.
+                        </span></li>
+                        <li><img src="images/user.PNG" alt=""><span>If a caller needs special help, Rosie can escalate to a human. She can even detect emotion such as urgency or frustration in the caller’s voice and offer to escalate.
+                        </span></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-box-right">
+                        <img src="images/man.avif" alt="" class="img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- plans -->
-     <section class="section plan-section">
-         <div class="plan-container">
-            <div class="plan-section-title">All plans include…</div>
-         <div class="plan-section-list">
-               <ul>
-    <li><i class='bx bx-check'></i> Appointment setting</li>
-    <li><i class='bx bx-check'></i> SMS confirmation of appointments</li>
-    <li><i class='bx bx-check'></i> Launch in one day</li>
-    <li><i class='bx bx-check'></i> 1000+ integrations w/ Zapier</li>
-    <li><i class='bx bx-check'></i> Call analytics</li>
-    <li><i class='bx bx-check'></i> Call transcripts and recordings</li>
-</ul>
-<ul>
-    <li><i class='bx bx-check'></i> Available 24/7</li>
-    <li><i class='bx bx-check'></i> Answer many calls at once</li>
-    <li><i class='bx bx-check'></i> Custom FAQ and answers</li>
-    <li><i class='bx bx-check'></i> Rosie AI trained for your business</li>
-    <li><i class='bx bx-check'></i> Data security</li>
-    <li><i class='bx bx-check'></i> White glove support</li>
-</ul>
-         </div>
-
-        </div>
-     </section>
-     <!-- faqs -->
-      <section class="section ">
-        <div class="faq-section">
-            <h4 class="faq-title">Frequently Asked Questions</h4>
-            <div class="faq-container">
-                <div class="faq">
-    <h5>Can I get help setting-up Rosie?</h5>
-    <p>Of course! Our team is around to answer any questions you may have as you get started with Rosie. Just chat us from within the Admin.</p>
-</div>
-
-<div class="faq">
-    <h5>Do you have a free trial period?</h5>
-    <p>Yes! We offer a 7-day free trial period (with 50 free minutes). If you exceed 50 minutes, your account will convert to a paid plan at $49/month.</p>
-</div>
-
-<div class="faq">
-    <h5>What happens if I go over 250 minutes?</h5>
-    <p>Rosie will keep working for you like normal at a rate of 20 cents per minute and our team will reach out to talk about custom pricing.</p>
-</div>
-
-<div class="faq">
-    <h5>Can I keep my phone number?</h5>
-    <p>Yes! Before you launch Rosie, we'll walk you through the call forwarding set-up within your existing phone system.</p>
-</div>
-
-<div class="faq">
-    <h5>How long does it take to set-up?</h5>
-    <p>It's quick! We scan your website to train Rosie immediately. Then you just need to add FAQs and upload other information you want Rosie to know.</p>
-</div>
-
-<div class="faq">
-    <h5>How can I provide Rosie feedback?</h5>
-    <p>You can always edit and add FAQs for Rosie in the Admin. You can also upload just about anything to train Rosie.</p>
-</div>
-
-<div class="faq">
-    <h5>Can I start using Rosie for after hours and overflow calls only?</h5>
-    <p>Absolutely. You can enable Rosie for after hours and/or overflow only when you set-up conditional call forwarding.</p>
-</div>
-
-<div class="faq">
-    <h5>Does Rosie stay updated on my business information, like hours?</h5>
-    <p>You can change your business hours within the Admin. You can also upload anything about your business to the Admin and we train Rosie instantly.</p>
-</div>
-
+    <section class="img-box ptb-100">
+        <div class="container">
+            <div class="row lcont-rimg align-items-center">
+                <div class="col-md-6">
+                    <h2>Turn missed calls into new revenue.</h2>
+                    <ul class="cont-list p-0 mt-5">
+                        <li><img src="images/call.png" alt=""><span>Make the most of your advertising spend by ensuring a new lead never goes to voicemail.</span></li>
+                        <li><img src="images/send.PNG" alt=""><span>Rosie is trained on your company data to keep customers happy and informed.
+                        </span></li>
+                        <li><img src="images/calender.PNG" alt=""><span>Reduce no-shows by having Rosie call appointments ahead of time to confirm.
+                        </span></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-box-right">
+                        <img src="images/img1avif.avif" alt="" class="img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
-      </section>
-      <!-- partnership -->
-       <section class="section partner-section">
-        <div class="partner-container">
-          
-                <p class="partner-title">
-                Partnerships
-            </p>
-           <div class="partner-headings"> <h5 class="partner-heading">Are you an agency looking to set your clients up with Rosie?</h5>
-            <p class="partner-subheading">Let’s chat about our agency program!</p></div>
-            <a href="#">Contact Us</a>
-            
+    </section>
+    <section class="img-box ptb-100">
+        <div class="container">
+            <div class="row rimg-lcont align-items-center">
+                <div class="col-md-6">
+                    <h2>We make AI easy and accessible. </h2>
+                    <ul class="cont-list p-0 mt-5">
+                        <li><img src="images/bulb.PNG" alt=""><span>No technical knowledge needed. Everything is simple and intuitive.
+                        </span></li>
+                        <li><img src="images/clock2.PNG" alt=""><span>Get set up on your own in minutes and we’ll make sure you’ve got everything right before going live.
+                        </span></li>
+                        <li><img src="images/integrate.PNG" alt=""><span>Integrates with your existing systems in a few clicks.
+                        </span></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-box-right">
+                        <img src="images/cap-man.avif" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="img-box ptb-100">
+        <div class="container">
+            <div class="row lcont-rimg align-items-center">
+                <div class="col-md-6">
+                    <h2>Trigger outgoing calls from your CRM.</h2>
+                    <ul class="cont-list p-0 mt-5">
+                        <li><img src="images/clock2.PNG" alt=""><span>Have Rosie call your customers and prospects.</span></li>
+                        <li><img src="images/star.PNG" alt=""><span>Request reviews on Yelp, Google Reviews and other sites after service.
+                        </span></li>
+                        <li><img src="images/follow.PNG" alt=""><span>Follow-up regularly to stay on customer’s radar and make promotional offers.
+                        </span></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-box-right">
+                        <img src="images/girl.avif" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature-sec">
+        <div class="purple-bg">
+            <div class="max-wid">
+                <h2 class="text-white">Powerful AI tech made simple for your business.</h2>
+                <p>We take the latest AI technology and make it super simple for you to use in your business.</p>
+            </div>
+            <div class="row mt-60">
+                <div class="col-xl-4 col-lg-6">
+                    <div class="feature-card">
+                        <img src="images/svgviewer-output.svg" alt="">
+                        <h3>Cutting-edge Technology</h3>
+                        <p>You’ll outshine your competition with us behind the scenes keeping everything updated with the latest releases in AI, including the newest large language models (LLMs).</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="feature-card">
+                        <img src="images/svgviewer-output (1).svg" alt="">
+                        <h3>Hyper-realistic </h3>
+                        <p>Our AI voice agent is practically indistinguishable from a real human. Choose the perfect voice that matches your business's personality and tone.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="feature-card">
+                        <img src="images/svgviewer-output (2).svg" alt="">
+                        <h3>Custom Intelligence</h3>
+                        <p>Your AI is meticulously trained on your data - including your website, Yelp listing, help documentation, and any additional information you provide, ensuring it accurately represents your brand.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="feature-card">
+                        <img src="images/svgviewer-output (3).svg" alt="">
+                        <h3>
+                            Seamless Integrations</h3>
+                        <p>Easily plug into your existing systems to get up and running in no time - Rosie can connect with your existing phone system, customer database, appointment scheduling tool, and more.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="feature-card">
+                        <img src="images/svgviewer-output (4).svg" alt="">
+                        <h3>
+                            Robust Security</h3>
+                        <p>You’ll outshine your competition with us behind the scenes keeping everything updated with the latest releases in AI, including the newest large language models (LLMs).</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="feature-card">
+                        <img src="images/svgviewer-output (5).svg" alt="">
+                        <h3>Comprehensive Analytics</h3>
+                        <p>
+                            Gain real-time insights into your calls and appointments. Listen to recordings and track performance metrics to optimize your operations and improve customer service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Faq  -->
+    <section class="faq ptb-100">
+        <div class="container">
+            <h2 class="title">Frequently Asked Questions</h2>
+       
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Do you offer a free trial?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Yes, all plans start with a 7-day free trial.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How much does Rosie cost?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Contact us for more information about our special Early Access pricing and benefits.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Can Rosie work with our existing tools?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Yes, Rosie integrates directly into your phone and appointment systems. See our existing integrations, or let us know what you need a connection with and we can likely build it for you.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                How long does it take to set up?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                We pull in your company-specific data from your website and Yelp profile, so it’s easy and takes just a few minutes to create your AI phone assistant. From there, most companies go live within a few days.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                Can you help us get set up?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Sure, our onboarding team will make sure you have what you need and things are fully tested before you go live.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                Can Rosie transfer calls to a human?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes, we allow for easy escalation to someone on your team when necessary. We can even detect emotion such as frustration or anger and proactively offer to transfer to a human.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                How do we connect to our phone system?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                It’s easy. We’ll create a phone number for you when you sign up. Then you simply forward calls to your new Rosie number when appropriate.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                Can I access call history and recordings?
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes, all calls are logged and available for review in your Rosie account. But please note, some states have more restrictions around call recording.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
+                Do we need a developer to work with Rosie?
+              </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                No, you don’t need any technical knowledge to use Rosie. If you have a technical team and want to work together on solutions, just let us know.
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+</section>
+<section class="container-fluid top-sec">
+    <div class="bottom-bg">
+      <div class="container">
+        <div class="hero-section">
+          <div class="container">
+            <div class="hero-content text-center">
+              <h1>Rosie always answers.</h1>
+              <div class="site-btn">
+                <a href="#">Get Started</a>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Get updates on Rosie</h4>
+                <form action="">
+                    <input type="email" placeholder="name@email.com" class="field">
+                    <input type="submit" class="submit">
+                </form>
+            </div>
+            <div class="col-md-6 text-end ">
+                <p>© 2024 Rosie </p>
+                <ul class="d-flex gap-10 p-0 justify-right">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script> -->
+     <script src="js/jquery.marquee.min.js"></script>
+    <script>
+      $('.marquee').marquee({
+            speed: 80,
+            gap: 70,
+            delayBeforeStart: 100,
+            direction: 'left',
+            duplicated: true,
+            pauseOnHover: false
+          });
+    </script>
+    <script>
+ $(document).ready(function() {
+    // Hide the video and show the image initially
+    $('#myVideo').hide();
+    $('#endImage').show();
 
-        </div>
-       </section>
-       <section class="calltoaction-section">
-        <div>
-            <h5>Get Your Rosie Assistant Today</h5>
-            <p>Start with a 7-day free trial. No contracts. Cancel anytime.</p>
-            <a href="#">Get Started for Free</a>
-        </div>
-       </section>
-</body>
+    // Button click event handler
+    $('#playButton').on('click', function() {
+        $(this).hide(); // Hide the play button
+
+        // Hide the image and show the video
+        $('#endImage').hide();
+        $('#myVideo').show();
+
+        var video = document.getElementById('myVideo');
+
+        // Show video controls
+        video.controls = true;
+        video.classList.remove('hide-controls');
+
+        // Play the video
+        video.play();
+    });
+
+    // Event listener for when the video ends
+    $('#myVideo').on('ended', function() {
+        var video = document.getElementById('myVideo');
+        
+        // Rewind the video to the beginning
+        video.currentTime = 0;
+        
+        // Play the video again
+        video.play();
+    });
+});
+
+
+    </script>
+    <script>
+      $(document).ready(function() {
+    var header = $('.fixed-header');
+    var headerOffset = header.offset().top; // Initial position of the header
+    
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > headerOffset + 200) {
+            header.addClass('scrolled');
+        } else {
+            header.removeClass('scrolled');
+        }
+    });
+});
+    </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  const getStartedLink = document.querySelector(".site-btn a");
+
+  function updateButtonText() {
+    if (window.innerWidth > 769) {
+      getStartedLink.textContent = "Get Started for Free";
+    } else {
+      getStartedLink.textContent = "Get Started";
+    }
+  }
+
+  // Call the function on initial load
+  updateButtonText();
+
+  // Add event listener to handle window resizing
+  window.addEventListener("resize", updateButtonText);
+});
+
+  </script>
+  </body>
 </html>

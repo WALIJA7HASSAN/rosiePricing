@@ -15,22 +15,22 @@ ul{
     margin-inline: auto;
    
 }
-.hero-section div{
+.price-hero-section div{
     padding: 100px 20px;
    
 }
-.hero-section h3{
+.price-hero-section h3{
     color: #2a143c;
     font-size: 44px;
      line-height: 1;
      
      
 }
-.hero-section p{
+.price-hero-section p{
     color: #2b143db3;
     font-size: 28px;
 }
-.hero-section h3{
+.price-hero-section h3{
     max-width: 850px;
 }
 /* section2 */
@@ -108,7 +108,8 @@ color: #2b143db3;
     text-align: center;
     font-weight: 500;
     background: rgb(185,37,214);
-background: linear-gradient( rgba(185,37,214,1) 0%, rgba(147,50,224,1) 100%);
+/* background: linear-gradient( rgba(185,37,214,1) 0%, rgba(147,50,224,1) 100%); */
+ background: linear-gradient(180deg, rgb(168, 63, 193) 0%, rgb(146, 52, 206) 52.25225225225225%);
 }
 .price-card-link2{
     width: 100%;
@@ -275,23 +276,23 @@ margin-block: 1rem;
     text-align: center;
     font-weight: 500;
     background: rgb(185,37,214);
-background: linear-gradient( rgba(185,37,214,1) 0%,rgba(147,50,224,1), rgba(147,50,224,1) 100%);
+ background: linear-gradient(180deg, rgb(168, 63, 193) 0%, rgb(146, 52, 206) 52.25225225225225%);
 box-shadow: rgba(146, 50, 224, 0.425)  0px 25px 70px 0px;
 }
 @media screen and (min-width:768px){
-    .hero-section h3{
+    .price-hero-section h3{
     font-size: 60px;
     margin-bottom: 0.5rem;
    
      
 }
-.hero-section{
+.price-hero-section{
    
     
     display: flex;
     place-items: center;
 }
-.hero-section div{
+.price-hero-section div{
      padding: 150px 90px 100px 90px;
 }
 
@@ -324,7 +325,7 @@ box-shadow: rgba(146, 50, 224, 0.425)  0px 25px 70px 0px;
 
 }
 @media screen and (min-width:1024px){
-    .hero-section h3{
+    .price-hero-section h3{
     font-size: 74px;
      
 }
