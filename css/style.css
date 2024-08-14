@@ -763,7 +763,8 @@ width: 142px !important;
  background: radial-gradient(circle at top, #321849 60%,#44216F);
   /* min-height: 90vh; */
   min-height: 337px;
-  gap: 3rem;
+  gap: 2rem;
+  padding-block: 2.8rem;
 }
 .partner-heading{
     font-size: 46px;
