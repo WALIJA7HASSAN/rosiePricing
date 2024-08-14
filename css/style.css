@@ -395,15 +395,15 @@ padding-inline: 1rem;
     background: #9332e0;
     padding: 0.6rem 0.8rem;
     position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    z-index: 1000;
-    transition: all .5s ease;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+    transition: all .2s ease;
     cursor: pointer;
 
 }
 .chat-icon:hover{
-    transform: scale(1.1);
+    transform: scale(1.12);
 }
 .chat-icon svg{
     width: 21px;
