@@ -45,6 +45,8 @@ p{
 }
 .navbar{
     padding: 27px 0;
+    max-width: 1400px;
+    margin: 0 auto;
    
 }
 .hero-content{
